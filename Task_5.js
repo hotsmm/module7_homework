@@ -6,7 +6,7 @@
 •	Соблюдать best practices;
 •	Использовать синтаксис ES6.
 
-class ElectricalDevice
+class ElectricDevice
 {
   constructor(name, power)
   {
@@ -27,8 +27,8 @@ class ElectricalDevice
   }
 }
 
-const radiator = new ElectricalDevice('radiator', 83)
-const iron = new ElectricalDevice('iron', 52);
+const radiator = new ElectricDevice('radiator', 83)
+const iron = new ElectricDevice('iron', 52);
 
 console.log(radiator.getPowerUsed() + iron.getPowerUsed());
 
